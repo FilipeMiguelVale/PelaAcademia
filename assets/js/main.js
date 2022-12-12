@@ -143,11 +143,19 @@
     let typed_strings = typed.getAttribute('data-typed-items')
     typed_strings = typed_strings.split(',')
     new Typed('.typed', {
-      strings: typed_strings,
+      strings: ['<a style="color:Tomato;">Cada vez mais de todos</a>',
+      '<a style="color:Green;">Mais próxima</a>',
+      '<a style="color:ForestGreen;">Estruturada</a>',
+      '<a style="color:Blue;">De desporto e mais saudavél</a>',
+      '<a style="color:GoldenRod;"> Autêntica</a>',
+      '<a style="color:LightSkyBlue;">Que revê a importância no comunicar</a>',
+      '<a style="color:DarkMagenta;">Mais próxima da região</a>',
+      '<a style="color:DarkBlue;">Inclusiva e Igualitária</a>',
+      '<a style="color:DarkGreen;"> Transparente</a>'],
       loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
+      typeSpeed: 15,
+      backSpeed: 15,
+      backDelay: 1000
     });
   }
 
